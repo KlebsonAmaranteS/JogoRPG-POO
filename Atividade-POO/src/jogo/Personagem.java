@@ -50,8 +50,8 @@ public class Personagem implements Ataque, InventarioComerciante {
 
     @Override
     public void exibir() {
-        System.out.printf("Você tem %d mooedas\n", this.getMoedas());
-        System.out.printf("Você tem %d de vida\n", this.getVida());
+        System.out.printf("Você inicia o jogo com %d mooedas\n", this.getMoedas());
+        System.out.printf("Você inicia o jogo com %d de vida\n", this.getVida());
     }
 
     // Método para comprar poções de cura
